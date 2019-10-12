@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Merienda|Montserrat+Alternates|Righteous" rel="stylesheet">
+</head>
+
+
+<body bgcolor="#000000">
+	<script src="script.js"></script>
+
+<!-- <div id="sketch-holder" align="left" position="absolute" width="60%" height="100%">
+
+</div> -->
+
+
+<div align="right" position="absolute" bgcolor="#000000" style="z-index: 10">
+		<iframe id="songPlayer" src="https://open.spotify.com/embed/user/spotify/playlist/6UeSakyzhiEt4NB3UAd6NQ" width="25%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+</div>
+
+<div align="right" top="70%" position="absolute" bgcolor="#000000" style="z-index: 10" width="30%">
+<button onclick="showLyrics()">Get Song Lyrics</button>
+</div>
+
+<div top="80%" bgcolor="blue" width="25%" align="right">
+	<font color="white">
+		<p id="lyrics"></p>
+	</font>
+</div>
+
+
+</body>
+
+</html>
+
+
+
