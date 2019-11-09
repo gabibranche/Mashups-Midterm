@@ -2,7 +2,7 @@
 This Repo has all the files concerning my Mashups Midterm Project. Enjoy!
 
 
-##Mashups Midterm Documentation
+## Mashups Midterm Documentation
 
 
 **Description:**
